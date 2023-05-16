@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react'
+import Navbar from './components/Navbar';
 
 const App = () => 
-    <div>App</div>
+    <div><Navbar/></div>
 
 
 export default App;
