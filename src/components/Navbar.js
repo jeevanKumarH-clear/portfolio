@@ -1,19 +1,22 @@
+import { Button } from '@mui/material'
 import React from 'react'
+import MenuSharpIcon from '@mui/icons-material/MenuSharp';
+import CloseSharpIcon from '@mui/icons-material/CloseSharp';
 
 const Navbar = () =>
     <nav>
         <div className='container'>
             <a href='#'><h3>Jeevan</h3></a>
             <ul>
-                <li><a href='#'>Home</a></li>
+                <li><a href='#' className='active'>Home</a></li>
                 <li><a href='#about'>About</a></li>
                 <li><a href='#skills'>Skills</a></li>
                 <li><a href='#services'>Services</a></li>
                 <li><a href='#portfolio'>Portfolio</a></li>
                 <li><a href='#contact'>Contact Me</a></li>
             </ul>
-            <button><span class="material-symbols-sharp">menu</span></button>
-            <button><span class="material-symbols-sharp">close</span></button>
+            <Button className='navButton' sx={{display:'none'}} startIcon={<MenuSharpIcon/>}></Button>
+            <Button className='navButton' sx={{display:'none'}} startIcon={<CloseSharpIcon/>}></Button>
         </div>
     </nav>
 
