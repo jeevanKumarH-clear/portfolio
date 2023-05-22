@@ -303,4 +303,76 @@
     text-decoration: underline;
   }
 
+  section.skills .container {
+    width: 50%;
+  } 
 
+  section.skills .skill {
+    margin-bottom: 1rem;
+  }
+
+  section.skills .skill .head {
+    background: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    padding: 1.6rem;
+    cursor: pointer;
+  }
+
+  section.skills .skill .head h4{
+    color: var(--color-white);
+  }
+
+  section.skills .skill .head .left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  section.skills .skill .item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 1.6rem;
+    background: var(--color-light);
+    margin-bottom: 0.3rem;
+    transition: var(--transition);
+  }
+ 
+  section.skills .skill .item:hover {
+    background: var(--color-white);
+  }
+
+  section.skills .skill .progress-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  section.skills .item .progress-bar {
+    width: 100%;
+    height: 1rem;
+    background: var(--color-primary-light);
+  }
+
+  section.skills .item .progress-bar .progress {
+    height: 100%;
+    width: 95%;
+    background: var(--color-primary);
+  }
+
+  section.skills .item:nth-child(2) .progress-bar .progress {
+    width: 90%;
+  }
+
+  section.skills .item:nth-child(3) .progress-bar .progress {
+    width: 90%;
+  }
+
+  section.skills .item:nth-child(4) .progress-bar .progress {
+    width: 80%;
+  }

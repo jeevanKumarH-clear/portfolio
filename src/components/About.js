@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 const About = () => 
@@ -6,7 +5,7 @@ const About = () =>
         <h1>About</h1>
         <div className='container'>
             <div className='image'>
-                <img src='myImage.jpeg' alt='img'></img>
+                <img src='./myImage.jpeg' alt='img'></img>
             </div>
             <div className='info'>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id iaculis lectus. Curabitur ac pretium ligula. 
@@ -35,7 +34,7 @@ const About = () =>
                     Integer sagittis, mi ut auctor hendrerit, massa neque sagittis nulla, eget elementum sapien dui vitae nulla.
                 </p>
                 </div>
-                <a className='read-more'>Show more</a>
+                <div className='read-more'>Show more</div>
                 <a href='resume.pdf' className='btn btn-primary' download={true}><i class="uil uil-import"></i>Download CV</a>
             </div>
         </div>
