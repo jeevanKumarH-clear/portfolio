@@ -60,7 +60,30 @@ const Skills = () =>
 
                 </div>
             </div>
+            <div className='skill'>
+                <div className='head'>
+                    <div className='left'>
+                        <span><CodeSharpIcon/></span>
+                        <h4>Version Control</h4>
+                    </div>
+                    <span>
+                        <KeyboardArrowDownSharpIcon/>
+                    </span>
+                </div>
+
+                <div className='items'>
+                    <div className='item'>
+                        <h5>GIT</h5>
+                        <div className='progress-area'>
+                            <div className='progress-bar'>
+                                <div className='progress'></div>
+                            </div>
+                            <h5>95%</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
- 
+   
 export default Skills
