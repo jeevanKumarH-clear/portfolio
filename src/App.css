@@ -376,3 +376,30 @@
   section.skills .item:nth-child(4) .progress-bar .progress {
     width: 80%;
   }
+
+
+  section.recent-work h1 {
+    text-align: left;
+    margin: 2rem 0 2rem;
+    width: 65%;
+  }
+
+  section.recent-work .projects {
+    display: flex;
+    gap: 3rem;
+  }
+
+  section.recent-work .projects .project {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  section.recent-work .projects .project .action a {
+    color: var(--color-primary);
+  }
+
+
+
+
+ 
