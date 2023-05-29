@@ -15,8 +15,8 @@ const Navbar = () =>
                 <li><a href='#portfolio'>Portfolio</a></li>
                 <li><a href='#contact'>Contact Me</a></li>
             </ul>
-            <Button className='navButton' sx={{display:'none'}} startIcon={<MenuSharpIcon/>}></Button>
-            <Button className='navButton' sx={{display:'none'}} startIcon={<CloseSharpIcon/>}></Button>
+            <Button id='menuButton' className='navButton' sx={{display:'none'}} startIcon={<MenuSharpIcon/>}></Button>
+            <Button id='closeButton' className='navButton' sx={{display:'none'}} startIcon={<CloseSharpIcon/>}></Button>
         </div>
     </nav>
 
