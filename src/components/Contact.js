@@ -6,7 +6,7 @@ const Contact = () =>
             <div className='container'>
                 <h1>Let's Talk</h1>
                 <p>I'm always open to new opportunities and collaborations. Feel free to reach out to me via email at <b>jeevankumarhari2002@gmail.com</b></p>
-                <form>
+                <form action="https://formspree.io/f/mpzgqbvg" method="POST">
                     <input type='text' name='Name' placeholder='Name' required />
                     <input type='email' name='Email' placeholder='Email' required />
                     <input type='text' name='Subject' placeholder='Subject' required />
