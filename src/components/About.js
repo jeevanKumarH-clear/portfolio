@@ -8,33 +8,11 @@ const About = () =>
                 <img src='./myImage.jpeg' alt='img'></img>
             </div>
             <div className='info'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id iaculis lectus. Curabitur ac pretium ligula. 
-                    Etiam finibus tellus eu leo porta, eget malesuada mauris facilisis. Orci varius natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Sed volutpat non nisi ac vestibulum. Aenean vitae neque vitae risus efficitur consectetur quis non ex.
-                    Sed quis venenatis nisi. Integer eget dignissim ex, eu efficitur turpis. Ut sit amet eleifend nibh, vitae varius massa. 
-                    Integer sagittis, mi ut auctor hendrerit, massa neque sagittis nulla, eget elementum sapien dui vitae nulla.
+                <p>Hi there! I'm Jeevan kumar, a passionate and skilled Front-end Developer with a creative flair for crafting immersive digital experiences. I specialize in building visually stunning and user-friendly websites that leave a lasting impression. With a keen eye for detail and a strong commitment to delivering top-notch code, I'm dedicated to creating web solutions that not only meet client expectations but exceed them.
                 </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id iaculis lectus. Curabitur ac pretium ligula. 
-                    Etiam finibus tellus eu leo porta, eget malesuada mauris facilisis. Orci varius natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Sed volutpat non nisi ac vestibulum. Aenean vitae neque vitae risus efficitur consectetur quis non ex.
-                    Sed quis venenatis nisi. Integer eget dignissim ex, eu efficitur turpis. Ut sit amet eleifend nibh, vitae varius massa. 
-                    Integer sagittis, mi ut auctor hendrerit, massa neque sagittis nulla, eget elementum sapien dui vitae nulla.
+                <p> I have a solid foundation in HTML, CSS, and JavaScript, enabling me to bring designs to life with pixel-perfect precision and seamless functionality. I keep up-to-date with the latest trends and best practices in front-end development to ensure cutting-edge and responsive designs.
                 </p>
-                <div className='read-more-content'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id iaculis lectus. Curabitur ac pretium ligula. 
-                    Etiam finibus tellus eu leo porta, eget malesuada mauris facilisis. Orci varius natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Sed volutpat non nisi ac vestibulum. Aenean vitae neque vitae risus efficitur consectetur quis non ex.
-                    Sed quis venenatis nisi. Integer eget dignissim ex, eu efficitur turpis. Ut sit amet eleifend nibh, vitae varius massa. 
-                    Integer sagittis, mi ut auctor hendrerit, massa neque sagittis nulla, eget elementum sapien dui vitae nulla.
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id iaculis lectus. Curabitur ac pretium ligula. 
-                    Etiam finibus tellus eu leo porta, eget malesuada mauris facilisis. Orci varius natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Sed volutpat non nisi ac vestibulum. Aenean vitae neque vitae risus efficitur consectetur quis non ex.
-                    Sed quis venenatis nisi. Integer eget dignissim ex, eu efficitur turpis. Ut sit amet eleifend nibh, vitae varius massa. 
-                    Integer sagittis, mi ut auctor hendrerit, massa neque sagittis nulla, eget elementum sapien dui vitae nulla.
-                </p>
-                </div>
-                <div className='read-more'>Show more</div>
+                <p>  In today's mobile-first world, it's crucial for websites to look and function flawlessly across various devices. I'm adept at creating responsive designs that adapt elegantly to different screen sizes and I ensure that my code is thoroughly tested to work seamlessly on all major browsers, guaranteeing a consistent user experience for every visitor.</p>
                 <a href='resume.pdf' className='btn btn-primary' download={true}><i class="uil uil-import"></i>Download CV</a>
             </div>
         </div>

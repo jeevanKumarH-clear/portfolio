@@ -11,9 +11,7 @@ const Portfolio = () =>
                         <img src='./youtube.jpg' alt='img'/>
                     </div>
                     <h2>Youtube clone</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id iaculis lectus. Curabitur ac pretium ligula. 
-                        Etiam finibus tellus eu leo porta, eget malesuada mauris facilisis. Orci varius natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Sed volutpat non nisi ac vestibulum.</p>
+                    <p>Worked in a team of 3 and recreated youtube with shorts feature.</p>
                         <div className='action'>
                             <a href='https://github.com/jeevanKumarH-clear/myYouTubeClone'>Github</a>
                         </div>
@@ -25,9 +23,7 @@ const Portfolio = () =>
                         <img src='./todo.png' alt='img'/>
                     </div>
                     <h2>Todo app</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id iaculis lectus. Curabitur ac pretium ligula. 
-                        Etiam finibus tellus eu leo porta, eget malesuada mauris facilisis. Orci varius natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Sed volutpat non nisi ac vestibulum.</p>
+                    <p>Created a simple and neat looking to-do list app where the user can create, read, delete and update to-dos. And also the user can select task from the task pane available on the right side.</p>
                         <div className='action'>
                             <a href='https://github.com/jeevanKumarH-clear/Todo'>Github</a>
                         </div>

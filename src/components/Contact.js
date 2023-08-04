@@ -5,7 +5,7 @@ const Contact = () =>
         <div className='overlay'>
             <div className='container'>
                 <h1>Let's Talk</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id iaculis lectus.</p>
+                <p>I'm always open to new opportunities and collaborations. Feel free to reach out to me via email at <b>jeevankumarhari2002@gmail.com</b></p>
                 <form>
                     <input type='text' name='Name' placeholder='Name' required />
                     <input type='email' name='Email' placeholder='Email' required />
