@@ -5,7 +5,7 @@ const About = () =>
         <h1>About</h1>
         <div className='container'>
             <div className='image'>
-                <img src='./myImage.jpeg' alt='img'></img>
+                <img src='./myImg2.jpeg' alt='img'></img>
             </div>
             <div className='info'>
                 <p>Hi there! I'm Jeevan kumar, a passionate and skilled Front-end Developer with a creative flair for crafting immersive digital experiences. I specialize in building visually stunning and user-friendly websites that leave a lasting impression. With a keen eye for detail and a strong commitment to delivering top-notch code, I'm dedicated to creating web solutions that not only meet client expectations but exceed them.
