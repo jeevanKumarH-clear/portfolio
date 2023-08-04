@@ -34,7 +34,7 @@ const Skills = () =>
                             <div className='progress-bar'>
                                 <div className='progress'></div>
                             </div>
-                            <h5>90%</h5>
+                            <h5>95%</h5>
                         </div>
                     </div>
 
@@ -54,9 +54,20 @@ const Skills = () =>
                             <div className='progress-bar'>
                                 <div className='progress'></div>
                             </div>
-                            <h5>90%</h5>
+                            <h5>95%</h5>
                         </div>
                     </div>
+
+                    <div className='item'>
+                        <h5>Responsive Web Design</h5>
+                        <div className='progress-area'>
+                            <div className='progress-bar'>
+                                <div className='progress'></div>
+                            </div>
+                            <h5>95%</h5>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div className='skill'>
