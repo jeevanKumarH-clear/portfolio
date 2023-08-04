@@ -11,7 +11,7 @@ const Portfolio = () =>
                         <img src='./youtube.jpg' alt='img'/>
                     </div>
                     <h2>Youtube clone</h2>
-                    <p>Worked in a team of 3 and recreated youtube with shorts feature.</p>
+                    <p>Worked in a team of 3 and recreated a clone version of youtube emulating YouTube's core features. Users can watch, and interact with videos, fostering a vibrant community of content creators and viewers. Built using HTML, CSS, JavaScript and React for a seamless video-sharing experience."</p>
                         <div className='action'>
                             <a href='https://github.com/jeevanKumarH-clear/myYouTubeClone'>Github</a>
                         </div>
